@@ -19,7 +19,7 @@ def go():
     schedule.every().day.at(playtime).do(show_message)
     while 1:
         schedule.run_pending()
-        time.sleep(1)
+        time.sleep(10)
 
 
  
